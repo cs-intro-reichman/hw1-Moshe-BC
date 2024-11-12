@@ -8,7 +8,7 @@ public class NumWords {
 
 		singles = num % 10;
 		tens = ((num % 100) - singles) / 10;
-		hundreds = ((num % 1000) - tens - singles) / 100;
+		hundreds = (num / 100);
 		
 		System.out.println(hundreds + " hundreds, " + tens + " tens, and "+ singles + " ones.");
 
