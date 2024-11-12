@@ -18,7 +18,7 @@ public class TimeFormat {
 
 		System.out.print(hours + ":");
 		System.out.printf("%02d ", minutes);
-		System.out.print(" " + ampm);
+		System.out.print(ampm);
 		
 
 	}
