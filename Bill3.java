@@ -8,8 +8,8 @@ public class Bill3 {
 
 		total = Math.ceil(total / 3);
 		
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " 
-							+ total + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " 
+							+ total + " Shekels each");
 	}
 }
 
