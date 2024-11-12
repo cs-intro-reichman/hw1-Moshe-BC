@@ -12,9 +12,6 @@ public class TimeFormat {
 				hours = hours -12;
 			}
 		}
-		if (hours == 0) {
-			ampm = "PM";
-		}
 
 		System.out.print(hours + ":");
 		System.out.printf("%02d ", minutes);
